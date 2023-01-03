@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.balance-text{
+    width: 20vw;
+    height: 5vw;
+    margin: 2vh auto;
+    background-color: rgb(19, 195, 204);
+    border-radius: 50%;
+    border: black .1rem solid;
+    text-align: center;
+    padding: 0rem 0rem;
+    font-size: 1.5vh;
+}
+
+.balance-text-text{
+    font-size: 2vw;
+    height: .5vh;
+    margin: auto;
+    margin-top: 1vh;
+}
+
+#balance-amount{
+    background-color: rgb(26, 188, 26);
+    width: 30vw;
+    height: 7vw;
+    margin: 2vw auto;
+    border-radius: 10%;
+    font-size: 6.5vw;
+    text-align: center;
+}
+
+
+.slot-machine-outline{
+    height: 20vh;
+    width: 60vw;
+    margin: 5vw auto;
+    display: flex;
+}
+
+.slot{
+    text-align: center;
+    font-size: 7rem;
+}
+
+.slot1{
+    height: 20vh;
+    width: 20vw;
+    border: 5px solid black;
+}
+.slot2{
+    height: 20vh;
+    width: 20vw;
+    border: 5px solid black;
+}
+.slot3{
+    height: 20vh;
+    width: 20vw;
+    border: 5px solid black;
+}
+
+.container{
+    text-align: center;
+}
+
+#bet-display{
+    color: green;
+    font-size: 2rem;
+}
+
+.key{
+    padding-top: 3vh;
+    text-align: center;
+}

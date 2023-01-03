@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section>
+            <div class="balance-text">
+                <h1 class="balance-text-text">Your balance is:</h1>
+            </div>
+            <div id="balance-amount">
+                <h3>1000</h3>
+            </div>
+        </section>
+        <section>
+            <div class="slot-machine-outline">
+                <div class="slot slot1" id="slot-JS1"></div>
+                <div class="slot slot2" id="slot-JS2"></div>
+                <div class="slot slot3" id="slot-JS3"></div>
+            </div>
+        </section>
+        <section class="container">
+            <form action="connect.php" method="post">
+                <input type="text" id="bet-amount" placeholder="Enter bet" name="bet">
+            </form>
+            <button onclick=" turnWhite(), spinFunction(), displayBet(), evalWinnings(), displayBalance()">Spin!</button>
+            <h3>Your bet amount is: <h3><span id="bet-display"></span></h3></h3>
+        </section>
+        <section class="key">
+            <h1>Prizes key:</h1>
+            <h3>Trips: Bet X50</h3>
+            <h3>3 Unders: Bet X2</h3>
+            <h3>3 Overs: Bet X2</h3>
+        </section>
+
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
